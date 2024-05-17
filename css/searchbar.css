@@ -1,0 +1,111 @@
+.searchbar {
+    position: absolute;
+    padding: 5px;
+}
+
+.searchbar input {
+    width: 0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #F195B2;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+    color: #62C3E7;
+}
+
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #62C3E7;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Comportamiento en pantallas grandes */
+@media (min-width: 769px) {
+    .searchbar:hover input,
+    .searchbar input:focus {
+        width: 440px;
+    }
+}
+
+@media (max-width: 768px) {
+    .searchbar:hover input,
+    .searchbar input:focus {
+        width: 90%;
+    }
+}
+
+/* Estilos para las sugerencias */
+.container-suggestions {
+    width: 88%;
+    background-color: white;
+    margin-left: 4%;
+    position: absolute;
+    z-index: 1050 !important;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: .1em;
+}
+
+li {
+    margin-bottom: .1em;
+}
+
+.container-suggestions li:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+/* Estilos para el popup de error */
+.error-popup {
+    display: none; /* Ocultar inicialmente */
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.error-popup-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px; /* Ancho máximo */
+    border-radius: 10px;
+}
+
+.error-popup-content p {
+    margin: 0;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

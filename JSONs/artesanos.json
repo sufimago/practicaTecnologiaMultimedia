@@ -1,0 +1,224 @@
+{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "numberOfItems": 12,
+    "itemListElement": [
+      {
+        "@type": "Person",
+        "name": "Miguel Angel Bernat Busquets",
+        "birthDate": "No disponible",
+        "description": "Natural de Soller, Miguel Angel Bernat Busquets nació en 1968. A temprana edad ya destacaba su sensibilidad por el arte lo cual le ha llevado a desarrollar una extensa trayectoria y ser un artista reconocido. Sus obras no solo se encuentran repartidas por territorio español si no que han cruzado fronteras y han llegado a lugares lejanos como New York, Munich, o Australia entre otros lugares.",
+        "email": "info@artsoller.com",
+        "image": "https://media.mallorca-touristguide.com/cartas/paginaextra1/200/biografia.JPG",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Luna 8 07100 Soller",
+          "addressLocality": "Mallorca",
+          "addressRegion": "ES",
+          "postalCode": "07100",
+          "addressCountry": "ES"
+        },
+        "jobTitle": "Pintura",
+        "url": "https://www.artsoller.com"
+      },
+      {
+        "@type": "Person",
+        "name": "Joana Maria Borràs Riera",
+        "birthDate": "No disponible",
+        "description": "Joana Maria Borràs Riera es una tejedora experta en la creación de textiles únicos y de alta calidad. Tiene por oficio diseñar y elaborar prendas de vestir, generalmente para mujer pero también para hombre. Diseña, hace patrones, crea prototipos, selecciona tejidos, corta, ajusta y confecciona, entre otras cosas.",
+        "email": "joanaborrasriera@gmail.com",
+        "image": "https://estaticos-cdn.prensaiberica.es/clip/c7309e2d-b62f-4805-b4e5-16308825f90e_16-9-aspect-ratio_default_1240695.webp",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Can Tocado 12",
+          "addressLocality": "Alaró",
+          "addressRegion": "ES",
+          "postalCode": "07340",
+          "addressCountry": "ES"
+        },
+        "jobTitle": "Tejidos y confección",
+        "url": "No disponible"
+      },
+      {
+        "@type": "Person",
+        "name": "Manuel José Rodríguez Soto",
+        "birthDate": "1985-03-10",
+        "description": "Manuel José Roríguez Soto es un orfebre reconocido por sus exquisitas piezas de abrigo y piel hechas a mano. Tiene por oficio confeccionar prendas de abrigo con pieles abonadas que conservan el pelaje natural.",
+        "email": "rodriguezsotomanueljose@gmail.com",
+        "image": "https://www.tallerdepielmanueljose.com/wp-content/uploads/brizy/imgs/1654077890628-scaled-511x681x0x7x511x667x1654158785.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Juan XXII, Local 4 B Comercial Geranios 4",
+          "addressLocality": "Mallorca",
+          "addressRegion": "ES",
+          "postalCode": "07004",
+          "addressCountry": "ES"
+        },
+        "jobTitle": "Piel y cuero",
+        "url": "tallerdepielmanueljose.com"
+      },
+      {
+        "@type": "Person",
+        "name": "Sebastià Pastor",
+        "birthDate": "No disponible",
+        "description": "Sebastià Pastor es un artesano del vino que ha dedicado toda su vida a la elaboración de vinos de calidad. Su bodega, situada en Santa Maria del Camí, es conocida por la calidad de sus vinos y por la tradición que ha sabido mantener a lo largo de los años.",
+        "email": "No disponible",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgPRqVHA4_MHSHS-WXIZCcT80DCgr9IJmmwIFlHtGpZw&s",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C/ Paborde Jaume, 17",
+          "addressLocality": "Santa Maria Del Camí",
+          "addressRegion": "ES",
+          "postalCode": "07320",
+          "addressCountry": "ES"
+        },
+        "jobTitle": "Vineria",
+        "url": "https://www.sebastiapastor.com/"
+      },
+      {
+        "@type": "Person",
+        "name": "Gabriel Riera Crespí",
+        "birthDate": "No disponible",
+        "description": "Persona que tiene por oficio la fabricación artesanal de telas de idiomas. Se trata de una técnica de producción de tejidos denominada ikat, donde se realiza una tinción previa, por reserva, antes de tejerlos.",
+        "email": "hola@riera.com",
+        "image": "https://www.riera.com/img/cms/640x400-biel.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C/ Major, 50",
+          "addressLocality": "Lloseta",
+          "addressRegion": "ES",
+          "postalCode": "07360",
+          "addressCountry": "ES"
+        },
+        "jobTitle": "Tejidos y confección",
+        "url": "teixitsriera.com"
+      },
+      {
+        "@type": "Person",
+        "name": "Javier Remo Rinaldi",
+        "birthDate": "No disponible",
+        "description": "Persona cuyo trabajo es fabricar y/o reparar piezas ornamentales utilizando metales preciosos u otro tipo de materiales.",
+        "email": "javierdelplata@gmail.com",
+        "image": "https://kinsta.com/es/wp-content/uploads/sites/8/2022/07/incognito-mode-1024x512.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "De les Coves 20 A",
+          "addressLocality": "Porto Cristo",
+          "addressRegion": "ES",
+          "postalCode": "07680",
+          "addressCountry": "ES"
+        },
+        "jobTitle": "Tejidos y confección",
+        "url": "No disponible"
+      },
+      {
+        "@type": "Person",
+        "name": "Feliu Llabrés Mateu",
+        "birthDate": "No disponible",
+        "description": "Persona que tiene por oficio construir elementos de piedra en seco, sin ningún mortero, barro o cemento que ate las piedras, como paredes, marges, barracas, caminos, canales o fuentes de mina, etc. En los lugares de Mallorca donde abundan más las paredes secas se les conoce como paredadores o paredadoras y en las zonas de montaña como margers o margeres.",
+        "email": "feliullabres@gmail.com",
+        "image": "https://uh.gsstatic.es/noticias/local/2022/11/28/2189551/fallece-palma-constructor-miquel-llabres-feliu.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C/ Estepa, 3, 5",
+          "addressLocality": "Palma",
+          "addressRegion": "ES",
+          "postalCode": "07010",
+          "addressCountry": "ES"
+        },
+        "jobTitle": "Piedra y construcción",
+        "url": "No disponible"
+      },
+      {
+        "@type": "Person",
+        "name": "Bartomeu Amengual",
+        "birthDate": "No disponible",
+        "description": "",
+        "email": "olleriacanvent@hotmail.com",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ramon_Casas_-_MNAC-_Bartomeu_Amengual-_027604-D_006594.jpg/377px-Ramon_Casas_-_MNAC-_Bartomeu_Amengual-_027604-D_006594.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C/ Can Monjo Fondo, 14",
+          "addressLocality": "Portol",
+          "addressRegion": "ES",
+          "postalCode": "07141",
+          "addressCountry": "ES"
+        },
+        "jobTitle": "Cerámica",
+        "url": "No disponible"
+      },
+      {
+        "@type": "Person",
+        "name": "Gregorio Vizcayno",
+        "birthDate": "No disponible",
+        "description": "",
+        "email": "artesaniagreca@yahoo.es",
+        "image": "https://kinsta.com/es/wp-content/uploads/sites/8/2022/07/incognito-mode-1024x512.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C/ Ses Coves, 71",
+          "addressLocality": "Inca",
+          "addressRegion": "ES",
+          "postalCode": "07300",
+          "addressCountry": "ES"
+        },
+        "jobTitle": "Hierro",
+        "url": "No disponible"
+      },
+      {
+        "@type": "Person",
+        "name": "Fernando Prats",
+        "birthDate": "No disponible",
+        "description": "",
+        "email": "No disponible",
+        "image": "https://scontent.fpmi3-1.fna.fbcdn.net/v/t1.18169-1/1964900_411982105614738_407297359_n.jpg?stp=c21.0.200.200a_dst-jpg_p200x200&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=TgfCaZaTj7gQ7kNvgFlDPGy&_nc_ht=scontent.fpmi3-1.fna&oh=00_AfCK7GY21rItP1yxuApaak7iIowBK2MRWcrZ3vUmXv4Quw&oe=665A0386",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C/ Marqués de la Cenia, 17",
+          "addressLocality": "Palma",
+          "addressRegion": "ES",
+          "postalCode": "07013",
+          "addressCountry": "ES"
+        },
+        "jobTitle": "Pastelería",
+        "url": "No disponible"
+      },
+      {
+        "@type": "Person",
+        "name": "Margarita Pallicer",
+        "birthDate": "No disponible",
+        "description": "Persona que tiene por oficio la sujeción, fijación o empotramiento de piedras preciosas en una montura o carcasa de metal fabricada por el joyero. La unión de las piedras sobre su soporte requiere, por su importancia y dificultad, unos conocimientos y habilidades específicos.",
+        "email": "juntandoletras@gmail.com",
+        "image": "https://st3.depositphotos.com/1717437/18718/v/450/depositphotos_187183502-stock-illustration-treatment-of-heart-disease.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C/ Sant Esperit, 14, 1",
+          "addressLocality": "Palma",
+          "addressRegion": "ES",
+          "postalCode": "07002",
+          "addressCountry": "ES"
+        },
+        "jobTitle": "Joyería",
+        "url": "No disponible"
+      },
+      {
+        "@type": "Person",
+        "name": "Margarita Sastre",
+        "birthDate": "No disponible",
+        "description": "Persona que tiene por oficio elaborar objetos de vidrio mediante el uso del horno. Incluye el fusing o fusión del vidrio (en plano) y el termoformado (en relieve).",
+        "email": "lideta@hotmail.es",
+        "image": "https://st3.depositphotos.com/1717437/18718/v/450/depositphotos_187183502-stock-illustration-treatment-of-heart-disease.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Carretera de Valldemossa, Km 11, La Fiore",
+          "addressLocality": "S'Esgleieta",
+          "addressRegion": "ES",
+          "postalCode": "07190",
+          "addressCountry": "ES"
+        },
+        "jobTitle": "Vidrio",
+        "url": "No disponible"
+      }
+    ]
+  }
+  

@@ -1,0 +1,162 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "ItemList",
+    "numberOfItems": 12,
+    "itemListElement": [
+      {
+        "@type": "Product",
+        "name": "Siurell - Payés",
+        "image": "https://www.mallorcashop.net/159-large_default/siurell-payes.webp",
+        "description": "Se elaboran de barro los emblemáticos siurells, pequeñas figuras con silbato, blanqueadas con cal y decoradas normalmente con pinceladas rojas y verdes, uno de los souvenirs más populares de la isla y que encandila tanto a niños como a adultos.",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.95",
+          "priceCurrency": "€",
+          "availability": "InStock",
+          "url": "https://www.mallorcashop.net/es/siurell-de-mallorca/46-52-siurell-payes.html#/25-centimetros-13_cm"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "Ocarina",
+        "image": "https://www.mallorcashop.net/206-large_default/ocarina.webp",
+        "description": "La Ocarina es un instrumento musical que pertenece a la familia de las flautas globulares y de embocadura conducida.",
+        "offers": {
+          "@type": "Offer",
+          "price": "68.00",
+          "priceCurrency": "€",
+          "availability": "InStock",
+          "url": "https://www.mallorcashop.net/es/ocarinas/67-475-ocarina.html#/29-tamano-pequeno/190-color-roja_catalana"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "Mortero",
+        "image": "https://www.mallorcashop.net/527-large_default/mortero-mallorquin.webp",
+        "description": "Tradicional mortero de cocina de cerámica, amarillo y esmaltado con barniz.",
+        "offers": {
+          "@type": "Offer",
+          "price": "20.50",
+          "priceCurrency": "€",
+          "availability": "InStock",
+          "url": "https://www.mallorcashop.net/es/morteros/59-82-mortero-mallorquin.html#/30-tamano-mediano"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "Trinxet",
+        "image": "https://www.mallorcashop.net/229-large_default/trinxet.webp",
+        "description": "El Trinxet se utiliza para cortar el pan payés, tiene forma de media luna. Cuchillo plegable. Acero Inoxidable. Fabricado a mano. Se fabrican bajo pedido, tardan 15 dias aprox.",
+        "offers": {
+          "@type": "Offer",
+          "price": "45.90",
+          "priceCurrency": "€",
+          "availability": "InStock",
+          "url": "https://www.mallorcashop.net/es/cuchillos-mallorquines/82-trinxet.html"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "Plato de barro",
+        "image": "https://www.mallorcashop.net/664-large_default/platos-de-barro-personalizados.webp",
+        "description": "Platos de barro personalizados. Para restaurantes, recuerdos de boda, aniversario, comunión, etc.",
+        "offers": {
+          "@type": "Offer",
+          "price": "40.00",
+          "priceCurrency": "€",
+          "availability": "InStock",
+          "url": "https://www.mallorcashop.net/es/artesania-tipica/196-7097-platos-de-barro-personalizados.html#/314-5_platos-planos"
+        }
+      },{
+        "@type": "Product",
+        "name": "Farol Bizancio",
+        "image": "https://www.mallorcashop.net/113-large_default/farol-bizancio.webp",
+        "description": "Farol Bizancio - Fabricado a mano, proceso artesanal.",
+        "offers": {
+          "@type": "Offer",
+          "price": "795.00",
+          "priceCurrency": "€",
+          "availability": "OutStock",
+          "url": "https://www.mallorcashop.net/es/faroles-mallorquines/29-farol-bizancio.html"
+        }
+      },{
+        "@type": "Product",
+        "name": "Tela Mallorquina de Lenguas",
+        "image": "https://www.mallorcashop.net/718-large_default/tela-de-lenguas.webp",
+        "description": "Se elaboran de barro los emblemáticos siurells, pequeñas figuras con silbato, blanqueadas con cal y decoradas normalmente con pinceladas rojas y verdes, uno de los souvenirs más populares de la isla y que encandila tanto a niños como a adultos.",
+        "offers": {
+          "@type": "Offer",
+          "price": "8.95",
+          "priceCurrency": "€",
+          "availability": "InStock",
+          "url": "https://www.mallorcashop.net/es/telas-tipicas-mallorquinas/83-7092-tela-de-lenguas.html#/310-telas-236_azul"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "Siurell - Demonio",
+        "image": "https://www.mallorcashop.net/158-large_default/siurell-demonio.webp",
+        "description": "El Siurell es una pieza de barro, con un silbato, con un baño de cal de color blanco y pintada con pinceladas verdes y rojas.",
+        "offers":{
+          "@type": "Offer",
+          "price": "8.95",
+          "priceCurrency": "€",
+          "availability": "InStock",
+          "url": "https://www.mallorcashop.net/es/siurell-de-mallorca/45-49-siurell-demonio.html#/25-centimetros-13_cm"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "Farol Corfú",
+        "image": "https://www.mallorcashop.net/524-large_default/farol-corfu.webp",
+        "description": "Fabricado a mano, proceso artesanal. Tamaños: Pequeño, Mediano y Grande. Fabricado en Mallorca. Vidrio soplado artesanal.",
+        "offers":{
+          "@type": "Offer",
+          "price": "289.00",
+          "priceCurrency": "€",
+          "availability": "OutStock",
+          "url": "https://www.mallorcashop.net/es/faroles-mallorquines/20-10440-farol-corfu.html#/29-tamano-pequeno/333-color-transparente"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "Gorrión de agua",
+        "image": "https://www.mallorcashop.net/209-large_default/gorrion-de-agua.webp",
+        "description": "Es un instrumento que imita el sonido de los pájaros. Su forma redonda hace una cavidad donde se pone el agua y al soplar por el caño pequeño que tiene en la cola hace un pitido tembloroso parecido al canto de los pájaros.",
+        "offers":{
+          "@type": "Offer",
+          "price": "29.95",
+          "priceCurrency": "€",
+          "availability": "InStock",
+          "url": "https://www.mallorcashop.net/es/ocarinas/70-gorrion-de-agua.html"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "Cuchillo mallorquín",
+        "image": "https://www.mallorcashop.net/143-large_default/cuchillo-mallorquin-de-pastor-madera-de-olivo-ordinas.webp",
+        "description": "Cuchillo mallorquín Ordinas de pastor, madera de olivo. Fabricado a mano. Utilizado para la caza y destripar animales. Cuchillo plegable. Acero Inoxidable, 3 tamaños de hoja disponibles. Se fabrican bajo pedido, tardan 15 dias aprox.",
+        "offers":{
+          "@type": "Offer",
+          "price": "39.00",
+          "priceCurrency": "€",
+          "availability": "InStock",
+          "url": "https://www.mallorcashop.net/es/cuchillos-mallorquines/16-98-cuchillo-mallorquin-de-pastor-madera-de-olivo-ordinas.html#/42-centimetros-95"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "Fona mallorquina",
+        "image": "https://www.mallorcashop.net/739-large_default/sling-honda-fona-schleuder-mallorca.webp",
+        "description": "Hondas de fibra vegetal (Cactus Pita) y esparto. Artesanal. Fabricado a mano.",
+        "offers": {
+          "@type": "Offer",
+          "price": "48.00",
+          "priceCurrency": "€",
+          "availability": "InStock",
+          "url": "https://www.mallorcashop.net/es/hondas-mallorquinas/169-417-sling-honda-fona-schleuder-mallorca.html#/175-slings-esparto"
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,56 @@
+.weather {
+    display: flex; /* Establece el contenedor como un flex container */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    flex-direction: column; /* Cambia la dirección del flujo a vertical */
+    font-family: 'Open Sans', sans-serif;
+    background: #80CEE6;
+    color: white;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+h2.city {
+    color: white;
+}
+
+h5.date {
+    color: white;
+}
+
+h1.temp {
+    color: white;
+    margin-bottom: 0.4em;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+.humidity {
+    padding-bottom: 2em;
+}
+
+#row2 {
+    text-align: center;
+    width: 100%;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+
+#row3 {
+    text-align: center;
+    width: 100%;
+}
+
+.nodata {
+    color: white;
+    margin-top: 2em;
+    font-style: italic;
+}

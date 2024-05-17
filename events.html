@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Artesania Mallorca</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="Free HTML Templates" name="keywords">
+	<meta content="Free HTML Templates" name="description">
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="img/handicrafts.png">
+
+	<!-- Leaflet Javascript Library -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+	 crossorigin="" />
+	<link rel="stylesheet" type="text/css" href="css/map.css">
+
+	<!-- Google Web Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+	<!-- Font Awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+	<!-- Libraries Stylesheet -->
+	<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+	<!-- Customized Bootstrap Stylesheet -->
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Customized Searchbar Stylesheet -->
+	<link href="css/searchbar.css" rel="stylesheet">
+
+	<script type="application/ld+json">
+		{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "numberOfItems": 10,
+  "itemListElement": [
+    {
+      "@type": "Event",
+      "name": "Fira del fang",
+      "startDate": "2024-05-01T08:00:00",
+      "endDate": "2024-05-10T20:00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Ruta del fang Marratxí y Pòrtol",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Plaza Sant Marçal",
+          "addressLocality": "Marratxí",
+          "addressRegion": "Raiguer",
+          "postalCode": "07141",
+          "addressCountry": "ES"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "39.62306",
+          "longitude": "2.74222"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes":  "20:00:00",
+            "dayOfWeek": "Miércoles",
+            "opens":  "08:00:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes":  "20:00:00",
+            "dayOfWeek": "Jueves",
+            "opens":  "08:00:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes":  "20:00:00",
+            "dayOfWeek": "Viernes",
+            "opens":  "08:00:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes":  "18:00:00",
+            "dayOfWeek": "Sábado",
+            "opens":  "12:00:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes":  "18:00:00",
+            "dayOfWeek": "Domingo",
+            "opens":  "12:00:00"
+          }
+        ]
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "Free",
+        "availability": "InStock"
+      },
+      "image": "https://www.artsmallorca.com/uploaded_files/photos/398475c83b47075e8897a083e97eb9f0_photo_1280x1280.JPG",
+      "description": "Este es uno de los recorridos más interesantes por los talleres de artesanos. Aquí encontrarás ollas y todo tipo de utensilios hechos con barro. Te recomendamos que lo complementes con la visita al Museo del Fang y la escuela de Cerámica de Marratxí.",
+      "videoUrl":"https://www.youtube.com/watch?v=7z16HV4mAPQ"
+    },
+    {
+      "@type": "Event",
+      "name": "Mercat artesanal Andratx",
+      "startDate": "2024-06-23T08:00:00",
+      "endDate": "2024-06-24T24:00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Mercado artesanal Andratx",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Carrer des Torrent",
+          "addressLocality": "Andratx",
+          "addressRegion": "Serra de Tramuntana",
+          "postalCode": "07160",
+          "addressCountry": "ES"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "39.53750",
+          "longitude": "2.42306"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes":  "24:00:00",
+            "dayOfWeek": "Lunes",
+            "opens":  "08:00:00"
+          }
+        ]
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "Free",
+        "availability": "InStock"
+      },
+      "image": "https://media.mallorca-touristguide.com/imagenes/1338/mercado%20de%20andratx%2015.8.19%20-009.JPG",
+      "description": "Anualmente, a finales de junio, se celebra una noche de fiesta, alegría y sueños en Camp de Mar. El Ayuntamiento de Andratx propone cada año actividades para disfrutar de la Noche mágica de San Juan, en la playa de Camp de Mar, con un mercado artesano.",
+      "videoUrl":"https://www.youtube.com/watch?v=OMUkgrbQ5dk"
+    },{
+      "@type": "Event",
+      "name": "Mercat medieval de Capdepera",
+      "startDate": "2024-05-17T08:00:00",
+      "endDate": "2024-05-19T20:00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Mercat medieval de Capdepera",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Castillo de Capdepera",
+          "addressLocality": "Capdepera",
+          "addressRegion": "Llevant",
+          "postalCode": "07580",
+          "addressCountry": "ES"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "39.70389",
+          "longitude": "3.43333"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes":  "20:00:00",
+            "dayOfWeek": "Viernes",
+            "opens":  "08:00:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes":  "20:00:00",
+            "dayOfWeek": "Sábado",
+            "opens":  "08:00:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes":  "20:00:00",
+            "dayOfWeek": "Domingo",
+            "opens":  "08:00:00"
+          }
+        ]
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "Free",
+        "availability": "InStock"
+      },
+      "image": "https://feriasymercadosmedievales.com/wp-content/uploads/2023/12/Mercado-Medieval-de-Capdepera-Baleares-2024.png",
+      "description": "Este mercado se celebra en el entorno del Castillo de Capdepera, en el que se recrea la vida en la Edad Media. Se ha convertido en una de las citas más importantes de la isla de Mallorca, ofreciendo desde productos artesanales, hasta espectáculos y actividades para toda la familia.",
+      "videoUrl":"https://www.youtube.com/watch?v=4mZNCc7cXaw"
+    },{
+      "@type": "Event",
+      "name": "Mercat de Santa Maria del Camí",
+      "startDate": "2024-05-05T09:00",
+      "endDate": "2024-05-05T14:00",
+      "location": {
+        "@type": "Place",
+        "name": "Mercado semanal de Santa Maria del Camí",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Plaza Nova",
+          "addressLocality": "Santa Maria del Camí",
+          "addressRegion": "Raiguer",
+          "postalCode": "07320",
+          "addressCountry": "ES"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "39.64889",
+          "longitude": "2.77750"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes":  "14:00:00",
+            "dayOfWeek": "Domingo",
+            "opens":  "09:00:00"
+          }
+        ]
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "Free",
+        "availability": "InStock"
+      },
+      "image": "https://media.mallorca-touristguide.com/imagenes/1325/mercado%20santa%20maria%20del%20cami%2030.7.19%20-%20008.JPG",
+      "description": "El Mercado de la localidad de Santa María del Camí se celebra todos los domingos de 9:00h a 14:00h en la Plaça Nova. Se trata de uno de los principales mercados locales de Mallorca y en él encontramos un gran número de puestos de venta.",
+      "videoUrl":"https://www.youtube.com/watch?v=5Qghs1v4nKU"
+    },
+    {
+      "@type": "Event",
+      "name": "Fira del Vi i del Formatge",
+      "startDate": "2024-05-05T010:00",
+      "endDate": "2024-05-05T17:00",
+      "location": {
+        "@type": "Place",
+        "name": "Fira del vi i del formatge",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Plaza Constitució",
+          "addressLocality": "Estellencs",
+          "addressRegion": "Serra de Tramuntana",
+          "postalCode": "07192",
+          "addressCountry": "ES"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "39.653529",
+          "longitude": "2.482241"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes":  "17:00:00",
+            "dayOfWeek": "Domingo",
+            "opens":  "10:00:00"
+          }
+        ]
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "Free"
+      },
+      "image": "https://www.artsmallorca.com/uploaded_files/photos/b8b4b727d6f5d1b61fff7be687f7970f_photo_1280x1280.JPG",
+      "description": "En esta feria artesanal los productos protagonistas son el vino y el queso. Pero además de esto, también se pueden encontrar otros artículos típicos de Mallorca, como, por ejemplo, los tradicionales cuchillos fabricados con acero de carbono.",
+      "videoUrl":"https://www.youtube.com/watch?v=WsMp2br6pWM"
+    },
+    {
+      "@type": "Event",
+      "name": "Mercat de Sineu",
+      "startDate": "2024-05-08T08:00",
+      "endDate": "2024-05-08T15:00",
+      "location": {
+        "@type": "Place",
+        "name": "Mercat/feria de Sineu",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Es Fossar, 160",
+          "addressLocality": "Sineu",
+          "addressRegion": "Pla de Mallorca",
+          "postalCode": "07510",
+          "addressCountry": "ES"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "39.64333",
+          "longitude": "3.01222"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes":  "15:00:00",
+            "dayOfWeek": "Miércoles",
+            "opens":  "08:00:00"
+          }
+        ]
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "Free"
+      },
+      "image": "https://media.mallorca-touristguide.com/imagenes/1258/mercado%20de%20sineu%2012.10.19%20-%20008.JPG",
+      "description": "Este mercado es uno de los más famosos de la isla de Mallorca. Se trata de un mercado que se lleva celebrando desde principios del siglo XIV y en el que semanalmente se dan cita distintos productores de alimentos y artesanías para ofrecer lo mejor de sus productos.",
+      "videoUrl":"https://www.youtube.com/watch?v=blvus4Lro0s"
+    },
+    {
+      "@type": "Event",
+      "name": "Fira Nocturna Marítima de Portocolom",
+      "startDate": "2024-07-16T20:00",
+      "endDate": "2024-07-16T23:59",
+      "location": {
+        "@type": "Place",
+        "name": "Fira Nocturna Marítima de Portocolom",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Plaza de Sant Jaume",
+          "addressLocality": "Portocolom",
+          "addressRegion": "Migjorn",
+          "postalCode": "07670",
+          "addressCountry": "ES"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "39.420941",
+          "longitude": "3.261158"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes":  "23:59:00",
+            "dayOfWeek": "Martes",
+            "opens":  "20:00:00"
+          }
+        ]
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "Free"
+      },
+      "image": "https://firesifestes.es/storage/images/594e33438ee5a.jpeg",
+      "description": "La Feria Marinera Nocturna de Portocolom, que se celebra una noche de verano a mediados del mes julio, coincide anualmente con la Mare de Déu del Carme y se celebra en la Plaça de Sant Jaume. Ofrece una seleción de productos locales, alimentación, artesanía y decoración.",
+      "videoUrl":"https://www.youtube.com/watch?v=shwWBIhN-3s"
+    },
+    {
+      "@type": "Event",
+      "name": "Fira de sa sabata",
+      "startDate": "2024-06-09T10:00",
+      "endDate": "2024-06-09T19:00",
+      "location": {
+        "@type": "Place",
+        "name": "Fira de sa sabata",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Plaza de España",
+          "addressLocality": "Lloseta",
+          "addressRegion": "Raiguer",
+          "postalCode": "07360",
+          "addressCountry": "ES"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "39.718339",
+          "longitude": "2.867635"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes":  "19:00:00",
+            "dayOfWeek": "Domingo",
+            "opens":  "10:00:00"
+          }
+        ]
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "Free"
+      },
+      "image": "https://firesifestes.es/storage/images/59ef461882aba.jpeg",
+      "description": "Participan empresas del sector de Lloseta y de todos los puntos de Mallorca, en cuyos stands puede verse demostraciones de fabricación artesanal del calzado. También se muestran trabajos en barro, restauración de muebles y se organiza un encuentro de pintores.",
+      "videoUrl":"https://www.youtube.com/watch?v=H85iiR8-vtU"
+    },
+    {
+      "@type": "Event",
+      "name": "Firó del meló",
+      "startDate": "2024-08-03T10:00",
+      "endDate": "2024-08-03T19:00",
+      "location": {
+        "@type": "Place",
+        "name": "Firó del meló",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Plaza Mayor",
+          "addressLocality": "Vilafranca de Bonany",
+          "addressRegion": "Raiguer",
+          "postalCode": "07250",
+          "addressCountry": "ES"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "39.568384",
+          "longitude": "3.088721"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes":  "19:00:00",
+            "dayOfWeek": "Sábado",
+            "opens":  "10:00:00"
+          }
+        ]
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "Free"
+      },
+      "image": "https://abcmallorcastorage.blob.core.windows.net/images/2019/04/firo-melo-vilafranca-bonany-mallorca.jpg",
+      "description": "Feria agrícola, ganadera e industrial que gira en torno al melón, uno de los productos más típicos de este municipio famoso por su huerta. Se celebran diferentes concursos de melones, entre ellos los que premian al de mayor calidad y al más grande.",
+      "videoUrl":"https://www.youtube.com/watch?v=VoaFVNf971s"
+    },
+    {
+      "@type": "Event",
+      "name": "Fira de ses herbes",
+      "startDate": "2024-06-08T08:00",
+      "endDate": "2024-06-09T23:00",
+      "location": {
+        "@type": "Place",
+        "name": "Fira de ses herbes",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Plaza Mayor",
+          "addressLocality": "Selva",
+          "addressRegion": "Raiguer",
+          "postalCode": "07313",
+          "addressCountry": "ES"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "39.754926",
+          "longitude": "2.900846"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes":  "23:00:00",
+            "dayOfWeek": "Sábado",
+            "opens":  "08:00:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "closes":  "23:00:00",
+            "dayOfWeek": "Domingo",
+            "opens":  "08:00:00"
+          }
+        ]
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "Free"
+      },
+      "image": "https://firesifestes.es/storage/images/06_06_23Captura_de_pantalla_2023_06_06_a_las_9.35.30.png",
+      "description": "Desde siempre las hierbas han formado parte de la tradición de este pueblo. Con ellas se elaboran productos medicinales y cosméticos, son condimento en la cocina y sirven de adorno en las celebraciones. Desde 1999 se celebra esta feria dedicada a productos relacionados con el este mundo.",
+      "videoUrl":"https://www.youtube.com/watch?v=BeH3P0y3soQ"
+    }
+  ]
+}
+	</script>
+
+
+
+</head>
+
+<body>
+	<!-- Topbar Start -->
+	<div class="container-fluid bg-primary py-3">
+		<div class="container mb-5">
+			<div class="row justify-content-center">
+				<div id="searchbar" class="searchbar">
+					<input id="inputSearch" type="text" placeholder="Buscar">
+                    <a id="searchButton" class="search-btn" target="_blank">
+                        <i class="fas fa-search icon"></i>
+                    </a>
+                    <ul class="container-suggestions rounded" style="object-fit: cover;"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+ <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
+                <a href="index.html" class="navbar-brand d-block d-lg-none">
+                    <h1 class="m-0 display-4 text-primary"><span class="text-secondary">Artesania</span>Mallorca</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="artisans.html" class="nav-item nav-link">Artesanos</a>
+                        <a href="product.html" class="nav-item nav-link">Productos</a>
+                    </div>
+					<a href="index.html" class="navbar-brand d-none d-lg-block">
+						<!--<h1 class="m-0 display-5 text-primary"><span class="text-secondary">Artesania</span>Mallorca</h1>-->
+						<h1 class="m-0 display-4 text-primary">
+							<span class="text-secondary" style="font-size: 2.5rem;">Artesania</span>
+					  <span style="font-size: 2.5rem;">Mallorca</span>
+					  <svg height="50px" width="50px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.002 512.002" xml:space="preserve">
+					    <g>
+					      <path style="fill:#BA6B24;" d="M382.79,7.694c-8.763,6.059-15.791,12.247-21.306,18.554c-4.807,5.492-8.456,11.078-11.125,16.759
+					        c-8.421,17.928-6.945,36.719-0.413,56.135c-48.317,4.358-65.713,79.225-114.018,76.862c-14.314-0.697-59.537-75.575-73.851-76.862
+					        c6.531-19.416,8.007-38.207-0.413-56.135c-2.669-5.669-6.319-11.255-11.125-16.759c-5.515-6.307-12.543-12.495-21.306-18.554
+					        c27.589-3.342,55.178-5.61,82.78-6.767C268.937-1.471,325.863,0.785,382.79,7.694z"/>
+					      <path style="fill:#BA6B24;" d="M349.398,99.214c49.651,31.132,82.673,86.358,82.673,149.296
+					        c0,68.654-39.293,155.119-96.621,200.022c-11.255,8.811-11.043,25.77,0.189,34.605c10.606,8.326,20.586,18.07,29.821,28.865
+					        H146.542c9.236-10.795,19.216-20.538,29.821-28.865c11.244-8.834,11.456-25.794,0.201-34.605
+					        c-57.34-44.903-96.633-131.368-96.633-200.022c0-62.938,33.022-118.164,82.685-149.296"/>
+					    </g>
+					    <g>
+					      <path style="fill:#A55C20;" d="M218.578,448.532c-27.012-44.903-45.522-131.368-45.522-200.022
+					        c0-62.938,15.557-118.164,38.952-149.296h-49.393c-49.663,31.132-82.685,86.358-82.685,149.296
+					        c0,68.654,39.293,155.119,96.633,200.022c11.255,8.811,11.043,25.77-0.201,34.605c-10.606,8.326-20.586,18.07-29.821,28.865h57.894
+					        c4.351-10.795,9.053-20.538,14.049-28.865C223.781,474.301,223.881,457.342,218.578,448.532z"/>
+					      <path style="fill:#A55C20;" d="M212.007,99.214l-6.992,2.917c-14.314-0.697-28.629-1.701-42.943-2.988
+					        c10.972-32.62,7.677-63.446-32.845-91.448c27.589-3.342,55.178-5.61,82.78-6.767C242.69,53.531,212.007,99.214,212.007,99.214z"/>
+					      <path style="fill:#A55C20;" d="M361.484,26.248c-4.807,5.492-8.456,11.078-11.125,16.759c-62.631-5.716-126.077-5.716-188.696,0
+					        c-2.669-5.669-6.319-11.255-11.125-16.759l5.515-0.52c66.316-6.307,133.588-6.307,199.916,0L361.484,26.248z"/>
+					      <path style="fill:#A55C20;" d="M432.071,257.368H79.931c-4.893,0-8.858-3.966-8.858-8.858s3.965-8.858,8.858-8.858h352.141
+					        c4.893,0,8.858,3.966,8.858,8.858S436.964,257.368,432.071,257.368z"/>
+					      <path style="fill:#A55C20;" d="M422.009,322.443H89.993c-4.893,0-8.858-3.966-8.858-8.858c0-4.892,3.965-8.858,8.858-8.858h332.016
+					        c4.893,0,8.858,3.966,8.858,8.858C430.866,318.477,426.901,322.443,422.009,322.443z"/>
+					    </g>
+					  </svg>
+					</h1>
+					                    </a>
+					                    <div class="navbar-nav mr-auto py-0">
+					                        <a href="events.html" class="nav-item nav-link">Eventos</a>
+					                        <a href="contact.html" class="nav-item nav-link">Quienes somos</a>
+					                    </div>
+					                </div>
+					            </nav>
+					        </div>
+					    </div>
+					    <!-- Navbar End -->
+
+
+    <!-- Pop Up Error Search Button -->
+    <div id="errorPopup" class="error-popup">
+        <div class="error-popup-content">
+            <span class="close" onclick="closeErrorPopup()">&times;</span>
+            <p>Por favor, seleccione una sugerencia antes de buscar.</p>
+        </div>
+    </div>
+
+
+    <!-- Header Start -->
+    <div class="jumbotron jumbotron-fluid page-header" style="margin-bottom: 90px;">
+        <div class="container text-center py-5">
+            <h1 class="text-white display-3 mt-lg-5">Eventos</h1>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Events Start -->
+    <div class="container-fluid">
+        <div class="container py-3">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <h1 class="section-title position-relative text-center mb-5">Próximos eventos</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center mb-3">
+                <div class="col-12 mb-3">
+                    <p class="text-center">Ordenar por:</p>
+                </div>
+                <div class="col-12 mb-3 text-center">
+                    <button class="btn btn-secondary" id="orderByNameAsc">Orden Alfabético Ascendente</button>
+                    <button class="btn btn-secondary" id="orderByNameDesc">Orden Alfabético Descendente</button>
+                    <button class="btn btn-secondary" id="orderByDate">Fecha de Inicio Más Cercana</button>
+                </div>
+            </div>
+            <div id="eventsContainer" class="row"></div>
+            <div class="col-12 text-center mt-4">
+                <a id="loadMoreButton" class="btn btn-primary btn-lg py-3 px-5" style="border-radius: 30px;">Cargar más</a>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-12">
+                    <h1 class="section-title position-relative text-center mb-4">Localización eventos</h1>
+                    <div id="map" style="border-radius: 20px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Events End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer bg-light py-3" style="margin-top: 90px;">
+        <div class="container text-center py-5">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <a href="index.html" class="navbar-brand m-0">
+                        <h1 class="m-0 mt-n2 display-4 text-primary"><span class="text-secondary">Artesania</span>Mallorca</h1>
+                    </a>
+                </div>
+                <div class="col-12 mb-4">
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-secondary btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="col-12 mt-2 mb-4">
+                    <div class="row">
+                        <div class="col-12 text-center mb-3 mb-sm-0">
+                            <h5 class="font-weight-bold mb-2">Datos de contacto</h5>
+                            <p class="mb-2">123 calle, Mallorca, España</p>
+                            <p class="mb-0">+123456789</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <p class="m-0">&copy; <a href="#">Dominio</a>. Todos los derechos estan reservados. Diseñado por <a href="https://artesaniamallorca.com">Sufi y Biel</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-secondary px-2 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!-- Interactive Map Javascript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <!-- Events Javascript -->
+    <script src="js/events.js"></script>
+
+    <!-- Search Javascript -->
+    <script src="js/search.js"></script>
+
+</body>
+
+</html>
